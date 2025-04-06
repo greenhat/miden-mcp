@@ -2,42 +2,6 @@
 
 This project implements a Model Context Protocol (MCP) server that interacts with Miden developer tools. 
 
-## Setup
-
-To run the Miden MCP server using npx, use the following command:
-
-```bash
-npx -y @miden/mcp@latest
-```
-
-## Usage with Cursor or Claude Desktop
-
-Add the following configuration. For more information, read the [Cursor MCP documentation](https://docs.cursor.com/context/model-context-protocol) or the [Claude Desktop MCP guide](https://modelcontextprotocol.io/quickstart/user).
-
-```json
-{
-  "mcpServers": {
-    "miden-mcp": {
-      "command": "npx",
-      "args": ["-y", "@miden/mcp@latest"]
-    }
-  }
-}
-```
-
-On Windows, you might need to use this alternative configuration:
-
-```json
-{
-  "mcpServers": {
-    "miden-mcp": {
-      "command": "cmd",
-      "args": ["/k", "npx", "-y", "@miden/mcp@latest"]
-    }
-  }
-}
-```
-
 ## Available tools
 
 This MCP server provides the following tools:
