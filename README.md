@@ -59,3 +59,8 @@ The server is built using the MCP SDK.
 ## License
 
 MIT
+
+## Example
+
+Here is the log of the chat with Claude Sonnet 3.7 using `miden-mcp` - https://gist.github.com/greenhat/3c46e4b8ca850639392c1c03b2ae0c7a
+See that even one tool call to `miden-mcp` is enough to provide the context to the LLM to generate a correct answer.
